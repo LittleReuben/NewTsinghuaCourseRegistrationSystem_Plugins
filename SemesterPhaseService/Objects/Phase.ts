@@ -1,6 +1,6 @@
 export enum Phase {
-    phase1 = '设立课程并预选阶段',
-    phase2 = '正选并补退选阶段'
+    phase1 = 'phase1',
+    phase2 = 'phase2'
 }
 
 export const phaseList = Object.values(Phase)

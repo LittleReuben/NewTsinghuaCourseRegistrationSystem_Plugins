@@ -1,7 +1,7 @@
 export enum UserRole {
-    superAdmin = '超级管理员角色',
-    teacher = '教师角色',
-    student = '学生角色'
+    superAdmin = 'admin',
+    teacher = 'teacher',
+    student = 'student'
 }
 
 export const userRoleList = Object.values(UserRole)

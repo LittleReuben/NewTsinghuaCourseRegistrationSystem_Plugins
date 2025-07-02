@@ -1,9 +1,9 @@
 export enum Rating {
-    one = '评分为1分',
-    two = '评分为2分',
-    three = '评分为3分',
-    four = '评分为4分',
-    five = '评分为5分'
+    one = '1',
+    two = '2',
+    three = '3',
+    four = '4',
+    five = '5'
 }
 
 export const ratingList = Object.values(Rating)
